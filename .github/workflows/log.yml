@@ -11,3 +11,7 @@ jobs:
     needs: log
     if: needs.log.outputs.committed == 'true'
     uses: mhb8898/boardgame-chronicle/.github/workflows/build-deploy.yml@main
+    with:
+      # The issue event's SHA predates the just-committed session — build the
+      # branch head instead.
+      data-ref: ${{ github.event.repository.default_branch }}
