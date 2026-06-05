@@ -1,0 +1,7 @@
+date: 2026-06-06
+game: root
+group: rbr
+notes: smoke test — will be removed
+players:
+  - { player: mahdi, faction: eyrie, winner: true }
+  - { player: haleh, faction: marquise }
