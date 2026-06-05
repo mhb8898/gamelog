@@ -1,0 +1,7 @@
+date: 2026-06-06
+game: root
+group: rbr
+notes: smoke test 2 — verifying data-ref fix, will be removed
+players:
+  - { player: haleh, faction: vagabond, winner: true }
+  - { player: mohammad-ali, faction: alliance }
