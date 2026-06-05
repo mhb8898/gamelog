@@ -1,0 +1,13 @@
+name: Log Session
+on:
+  issues: { types: [opened, edited, labeled] }
+permissions: { contents: write, issues: write, pages: write, id-token: write }
+jobs:
+  log:
+    uses: mhb8898/boardgame-chronicle/.github/workflows/log-issue.yml@main
+  # GITHUB_TOKEN pushes don't trigger the push-based Deploy workflow,
+  # so chain the deploy explicitly after an approved commit.
+  deploy:
+    needs: log
+    if: needs.log.outputs.committed == 'true'
+    uses: mhb8898/boardgame-chronicle/.github/workflows/build-deploy.yml@main

@@ -2,3 +2,5 @@ title: Mahdi's Game Log
 site: https://mhb8898.github.io
 base: /gamelog
 repoUrl: https://github.com/mhb8898/gamelog
+# Enables the "Log a play" form on the site; issues land in this repo.
+dataRepoUrl: https://github.com/mhb8898/gamelog

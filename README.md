@@ -5,6 +5,14 @@ Play data for my boardgame nights, built into a website by
 
 **Live:** https://mhb8898.github.io/gamelog/
 
-To log a game: add a YAML file to `data/sessions/` (see existing files for the
-format), commit, push. Data formats are documented in the
+To log a game, either:
+
+- **From the site (easiest):** open
+  [the “Log a play” form](https://mhb8898.github.io/gamelog/log/), fill it in,
+  and submit — it opens a prefilled GitHub issue. Once a maintainer adds the
+  `approved` label, the session is committed and the site updates.
+- **By hand:** add a YAML file to `data/sessions/` (see existing files for the
+  format), commit, push.
+
+Data formats are documented in the
 [engine README](https://github.com/mhb8898/boardgame-chronicle#logging-a-session).
