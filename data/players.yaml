@@ -1,0 +1,13 @@
+# Player roster. Every player referenced in sessions must exist here.
+- id: mahdi
+  name: Mahdi
+  avatar: "🦅"
+- id: haleh
+  name: Haleh
+  avatar: "🦉"
+- id: mohammad-ali
+  name: Mohammad Ali
+  avatar: "🐈"
+- id: mohammad-rasool
+  name: Mohammad Rasool
+  avatar: "🦝"

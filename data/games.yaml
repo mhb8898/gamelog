@@ -1,0 +1,10 @@
+- id: root
+  name: Root
+  bggId: 237182
+  minPlayers: 2
+  maxPlayers: 4
+  factions:
+    - { id: marquise, name: Marquise de Cat }
+    - { id: eyrie, name: Eyrie Dynasties }
+    - { id: alliance, name: Woodland Alliance }
+    - { id: vagabond, name: Vagabond }

@@ -1,0 +1,10 @@
+name: Deploy
+on:
+  push: { branches: [main] }
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+jobs:
+  chronicle:
+    uses: mhb8898/boardgame-chronicle/.github/workflows/build-deploy.yml@main
+    # Pin a release for stability:
+    # with: { engine-ref: v1.0.0 }

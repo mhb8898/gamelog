@@ -1,0 +1,8 @@
+date: 2026-06-05
+game: root
+group: rbr
+players:
+  - { player: mahdi, faction: eyrie, winner: true }
+  - { player: haleh, faction: alliance }
+  - { player: mohammad-ali, faction: marquise }
+  - { player: mohammad-rasool, faction: vagabond }
