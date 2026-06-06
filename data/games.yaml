@@ -8,3 +8,8 @@
     - { id: eyrie, name: Eyrie Dynasties }
     - { id: alliance, name: Woodland Alliance }
     - { id: vagabond, name: Vagabond }
+- id: castles-of-burgundy
+  name: The Castles of Burgundy
+  bggId: 84876
+  minPlayers: 2
+  maxPlayers: 4

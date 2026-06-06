@@ -1,0 +1,9 @@
+date: 2026-06-07
+game: castles-of-burgundy
+group: rbr
+location: "Behnam's place"
+players:
+  - { player: haleh, score: 199, winner: true }
+  - { player: mahdi, score: 180 }
+  - { player: behnam, score: 144 }
+  - { player: nazanin, score: 127 }
